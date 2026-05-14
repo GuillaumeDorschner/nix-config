@@ -1,0 +1,13 @@
+[user]
+    name = Guillaume Dorschner
+    email = guillaume.dorschner@icloud.com
+    signingkey = ~/.ssh/gdorschner_yubikey
+
+[gpg]
+    format = ssh
+
+[commit]
+    gpgsign = true
+
+[tag]
+    gpgsign = true

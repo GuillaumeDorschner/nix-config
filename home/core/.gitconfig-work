@@ -1,0 +1,13 @@
+[user]
+    name = Guillaume Dorschner
+    email = guillaume.dorschner@thalesgroup.com
+    signingkey = ~/.ssh/work_gdorschner_yubikey
+
+[gpg]
+    format = ssh
+
+[commit]
+    gpgsign = true
+
+[tag]
+    gpgsign = true
