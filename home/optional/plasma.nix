@@ -1,5 +1,3 @@
-{ pkgs, user, ... }:
-
 {
   xdg.dataFile = {
     "kwin/scripts/myscript/metadata.json".text = ''
@@ -90,9 +88,10 @@
 
   programs.plasma = {
     enable = true;
+    # overrideConfig = true # Test this if the plasma i making be up to your mischief again
     workspace = {
       wallpaper = ../../asserts/wallpaper.jpeg;
-      # lookAndFeel = "org.kde.breezetwilight.desktop"; # TODO: test if this is the reson of the background not working
+      lookAndFeel = "org.kde.breezetwilight.desktop"; # TODO: test if this is the reson of the background not working
     };
     kscreenlocker = {
       autoLock = true;

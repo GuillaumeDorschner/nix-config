@@ -1,7 +1,7 @@
-{ pkgs, user, ... }:
+{ pkgs, ... }:
 
 {
-  home.packages = with pkgs; [ zsh ];
+  home.packages = with pkgs; [ zsh ]; # TODO: change
 
   programs.zsh = {
     enable = true;

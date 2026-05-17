@@ -1,5 +1,3 @@
-{ pkgs, user, ... }:
-
 {
   programs.ssh = {
     enable = true;

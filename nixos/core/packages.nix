@@ -23,6 +23,7 @@
     bluez
     kdePackages.partitionmanager
     # Nixos
+    nixd
     nixfmt
     just
     # Linux

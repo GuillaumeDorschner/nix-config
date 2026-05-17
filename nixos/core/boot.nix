@@ -1,4 +1,4 @@
-{ pkgs, user, ... }:
+{ pkgs, ... }:
 
 {
   boot = {
@@ -6,6 +6,7 @@
       systemd-boot.enable = true;
       efi.canTouchEfiVariables = true;
     };
+    blacklistedKernelModules = [ "mt76x2u" ]; # Disable xbox dongle avoid laggy wifi
     kernelPackages = pkgs.linuxPackages_latest;
   };
 

@@ -1,5 +1,3 @@
-{ pkgs, user, ... }:
-
 {
   programs.virt-manager.enable = true;
   users.groups.libvirtd.members = [ "guillaume" ];

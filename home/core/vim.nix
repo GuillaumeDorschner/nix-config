@@ -1,5 +1,3 @@
-{ pkgs, user, ... }:
-
 {
   programs.vim = {
     enable = true;

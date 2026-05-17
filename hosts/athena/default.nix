@@ -1,6 +1,8 @@
 { inputs, ... }:
 
 {
+  system.stateVersion = "25.11";
+
   imports = [
     ./hardware-configuration.nix
     ../../nixos/core
@@ -9,19 +11,6 @@
     inputs.mysecrets.nixosModules.default
   ];
 
-  services.xserver.videoDrivers = [
-    "modesetting"
-    "amdgpu"
-  ];
-  hardware.enableAllFirmware = true;
-  services.libinput.enable = true;
-  services.blueman.enable = false; # for the Blueman KDE/GNOME tray app
-
-  hardware.bluetooth = {
-    enable = true;
-    powerOnBoot = true;
-  };
-
   home-manager = {
     useGlobalPkgs = true;
     useUserPackages = true;
@@ -29,5 +18,20 @@
     users.guillaume = import ../../home/users/guillaume;
   };
 
-  system.stateVersion = "25.11";
+  hardware = {
+    enableAllFirmware = true;
+    bluetooth = {
+      enable = true;
+      powerOnBoot = true;
+    };
+  };
+
+  services = {
+    xserver.videoDrivers = [
+      "modesetting"
+      "amdgpu"
+    ];
+    libinput.enable = true;
+    blueman.enable = false; # for the Blueman KDE/GNOME tray app
+  };
 }
