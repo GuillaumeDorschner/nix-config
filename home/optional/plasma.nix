@@ -88,7 +88,7 @@
 
   programs.plasma = {
     enable = true;
-    # overrideConfig = true # Test this if the plasma i making be up to your mischief again
+    overrideConfig = true;
     workspace = {
       wallpaper = ../../asserts/wallpaper.jpeg;
       lookAndFeel = "org.kde.breezetwilight.desktop"; # TODO: test if this is the reson of the background not working
