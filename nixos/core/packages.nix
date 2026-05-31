@@ -26,6 +26,7 @@
     nixd
     nixfmt
     just
+    devenv
     # Linux
     git-lfs
     python313Packages.git-filter-repo
