@@ -45,6 +45,7 @@
     gnumake
     fd
     jq
+    time
     unixtools.netstat
     tcpdump
     ripgrep
