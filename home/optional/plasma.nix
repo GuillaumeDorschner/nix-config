@@ -93,6 +93,12 @@
       wallpaper = ../../asserts/wallpaper.jpeg;
       lookAndFeel = "org.kde.breezetwilight.desktop"; # TODO: test if this is the reson of the background not working
     };
+    input = {
+      keyboard.layouts = [
+        { layout = "us"; }
+        { layout = "fr"; }
+      ];
+    };
     kscreenlocker = {
       autoLock = true;
       lockOnResume = true;
