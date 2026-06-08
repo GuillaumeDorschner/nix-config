@@ -65,6 +65,7 @@
     minikube
     kind
     vagrant
+    terraform
     opentofu
     oras
     shelldap
