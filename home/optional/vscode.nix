@@ -1,4 +1,4 @@
-{ pkgs, user, ... }:
+{ pkgs, ... }:
 
 {
   programs.vscode = {
@@ -88,6 +88,9 @@
         };
         "extensions.autoCheckUpdates" = true;
         "extensions.autoUpdate" = true;
+        "chat.enabled" = false;
+        "chat.agent.enabled" = false;
+        "chat.commandCenter.enabled" = false;
         "github.copilot.chat.enabled" = false;
         "github.copilot.enable" = false;
         "editor.snippetSuggestions" = "top";
