@@ -30,6 +30,7 @@
     initContent = ''
               export PERSONAL=/home/guillaume/personal
               export WORK=/home/guillaume/work/thales
+              export NIXCONFIG=$PERSONAL/nixos_flake_config
               export HISTTIMEFORMAT="%d/%m/%y %T "
               export ANSIBLE_VAULT_PASSWORD_FILE=~/.password
 
@@ -64,9 +65,8 @@
               }
 
               setup() {
-                sudo vim /etc/nixos
-                sudo nixos-rebuild switch
-                exec zsh -l
+                code $NIXCONFIG
+                cd $NIXCONFIG/config
               }
 
               mcd() {
