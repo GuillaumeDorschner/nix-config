@@ -7,39 +7,46 @@
 
     profiles.default = {
       extensions = with pkgs.vscode-extensions; [
+        # Global #
+        vscodevim.vim
+        natqe.reload
         ms-vscode-remote.remote-ssh
         ms-vscode-remote.remote-ssh-edit
         ms-vscode-remote.remote-containers
+        gruntfuggly.todo-tree
+        pkief.material-icon-theme
+        mhutchie.git-graph
+        usernamehw.errorlens
+        hediet.vscode-drawio
+        esbenp.prettier-vscode
+        # continue.continue
+        # DevOps #
         ms-azuretools.vscode-docker
         ms-kubernetes-tools.vscode-kubernetes-tools
-        natqe.reload
-        mechatroner.rainbow-csv
-        rust-lang.rust-analyzer
-        pkief.material-icon-theme
-        gruntfuggly.todo-tree
-        vscodevim.vim
-        mhutchie.git-graph
-        # esbenp.prettier-vscode
-        usernamehw.errorlens
+        redhat.ansible
+        hashicorp.terraform
+        redhat.vscode-yaml
+        redhat.vscode-xml
+        # Language #
+        ## Python
         ms-python.python
         ms-toolsai.jupyter
         ms-toolsai.jupyter-keymap
         ms-toolsai.jupyter-renderers
         ms-toolsai.vscode-jupyter-cell-tags
         ms-toolsai.vscode-jupyter-slideshow
+        ## Web
+        astro-build.astro-vscode
+        bradlc.vscode-tailwindcss
         unifiedjs.vscode-mdx
-        yzhang.markdown-all-in-one
+        ## Rust
+        rust-lang.rust-analyzer
+        ## Others
         james-yu.latex-workshop
         mechatroner.rainbow-csv
-        redhat.ansible
-        redhat.vscode-xml
-        redhat.vscode-yaml
-        samuelcolvin.jinjahtml
-        bradlc.vscode-tailwindcss
+        yzhang.markdown-all-in-one
         bierner.markdown-mermaid
-        astro-build.astro-vscode
-        # continue.continue
-        hediet.vscode-drawio
+        samuelcolvin.jinjahtml
       ];
 
       languageSnippets = {
