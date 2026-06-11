@@ -28,20 +28,20 @@
         redhat.vscode-yaml
         redhat.vscode-xml
         # Language #
-        ## Python
+        # Python #
         ms-python.python
         ms-toolsai.jupyter
         ms-toolsai.jupyter-keymap
         ms-toolsai.jupyter-renderers
         ms-toolsai.vscode-jupyter-cell-tags
         ms-toolsai.vscode-jupyter-slideshow
-        ## Web
+        # Web #
         astro-build.astro-vscode
         bradlc.vscode-tailwindcss
         unifiedjs.vscode-mdx
-        ## Rust
+        # Rust #
         rust-lang.rust-analyzer
-        ## Others
+        # Others #
         james-yu.latex-workshop
         mechatroner.rainbow-csv
         yzhang.markdown-all-in-one
