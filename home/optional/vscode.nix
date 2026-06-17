@@ -42,6 +42,7 @@
         # Rust #
         rust-lang.rust-analyzer
         # Others #
+        jnoortheen.nix-ide
         james-yu.latex-workshop
         mechatroner.rainbow-csv
         yzhang.markdown-all-in-one
