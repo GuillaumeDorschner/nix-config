@@ -45,6 +45,7 @@
     gnumake
     fd
     jq
+    yq
     time
     unixtools.netstat
     tcpdump
