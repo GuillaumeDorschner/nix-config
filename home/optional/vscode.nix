@@ -43,6 +43,7 @@
         rust-lang.rust-analyzer
         # Others #
         jnoortheen.nix-ide
+        ms-vscode.makefile-tools
         james-yu.latex-workshop
         mechatroner.rainbow-csv
         yzhang.markdown-all-in-one
