@@ -52,7 +52,7 @@
       ];
 
       languageSnippets = {
-        yaml = {
+        ansible = {
           ansibleDebugMessage = {
             prefix = "debugam";
             body = [
@@ -74,6 +74,7 @@
           };
         };
       };
+
       userSettings = {
         # --- Language ---
         # all
@@ -159,6 +160,7 @@
           "[x]"
         ];
       };
+
       keybindings = [
         {
           key = "ctrl+alt+b";
