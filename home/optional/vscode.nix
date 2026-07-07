@@ -84,6 +84,10 @@
         "editor.defaultFormatter" = "esbenp.prettier-vscode";
         "files.trimTrailingWhitespace" = true;
         "files.trimFinalNewlines" = true;
+        # --- Terraform ---
+        "[terraform]" = {
+          "editor.defaultFormatter" = "hashicorp.terraform";
+        };
         # --- Nix ---
         "[nix]" = {
           "editor.defaultFormatter" = "jnoortheen.nix-ide";
