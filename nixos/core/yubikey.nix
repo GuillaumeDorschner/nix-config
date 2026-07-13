@@ -3,7 +3,6 @@
 {
   services.pcscd.enable = true;
   services.udev.packages = [ pkgs.yubikey-personalization ];
-  services.yubikey-agent.enable = true;
 
   # Lock session when yubi is unmount
   services.udev.extraRules = ''

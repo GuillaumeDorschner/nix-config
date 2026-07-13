@@ -21,7 +21,6 @@
 
     shellAliases = {
       finder = "dolphin";
-      vagrant = "SSH_AUTH_SOCK= vagrant";
       ll = "ls -alh";
       gs = "git status";
       ocean = "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null root@$1 -i ~/.ssh/digital_ocean";
