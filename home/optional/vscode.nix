@@ -27,6 +27,7 @@
         hashicorp.terraform
         redhat.vscode-yaml
         redhat.vscode-xml
+        timonwong.shellcheck
         # Language #
         # Python #
         ms-python.python
