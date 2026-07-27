@@ -20,11 +20,14 @@
     };
 
     shellAliases = {
+      # Personal
       finder = "dolphin";
       ll = "ls -alh";
       gs = "git status";
       ocean = "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null root@$1 -i ~/.ssh/digital_ocean";
       server = "python3 -m http.server 8000";
+      # Vagrant
+      vus = "vagrant up && vagrant ssh";
     };
 
     initContent = ''
