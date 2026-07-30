@@ -1,5 +1,11 @@
+{ config, ... }:
+let
+  wallpaper = "${config.xdg.dataHome}/wallpapers/wallpaper.jpeg";
+in
 {
   xdg.dataFile = {
+    "wallpapers/wallpaper.jpeg".source = ../../asserts/wallpaper.jpeg;
+
     "kwin/scripts/myscript/metadata.json".text = ''
       {
       "KPlugin": {
@@ -90,8 +96,8 @@
     enable = true;
     overrideConfig = true;
     workspace = {
-      wallpaper = ../../asserts/wallpaper.jpeg;
-      lookAndFeel = "org.kde.breezetwilight.desktop"; # TODO: test if this is the reson of the background not working
+      wallpaper = wallpaper; # rollback if the wallpaper still desaper
+      lookAndFeel = "org.kde.breezetwilight.desktop";
     };
     input = {
       keyboard.layouts = [
@@ -105,7 +111,7 @@
       timeout = 2;
       passwordRequired = true;
       passwordRequiredDelay = 5;
-      appearance.wallpaper = ../../asserts/wallpaper.jpeg;
+      appearance.wallpaper = wallpaper;
     };
     desktop = {
       icons = {
