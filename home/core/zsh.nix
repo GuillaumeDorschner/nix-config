@@ -28,6 +28,9 @@
       server = "python3 -m http.server 8000";
       # Vagrant
       vus = "vagrant up && vagrant ssh";
+      # Kube
+      kn = "kubectl config set-context --current --namespace";
+      do = "--dry-run=client -o yaml";
     };
 
     initContent = ''
