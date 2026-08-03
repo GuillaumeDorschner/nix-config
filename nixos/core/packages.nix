@@ -62,6 +62,7 @@
     # DevOps
     ansible
     kubectl
+    k9s
     kubectl-explore
     minikube
     kind
