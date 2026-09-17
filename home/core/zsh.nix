@@ -29,8 +29,18 @@
       # Vagrant
       vus = "vagrant up && vagrant ssh";
       # Kube
+      k = "kubectl";
+      kg = "kubectl get";
+      kd = "kubectl describe";
+      kaf = "kubectl apply -f";
+      kdel = "kubectl delete";
+      kl = "kubectl logs";
+      klf = "kubectl logs -f";
+      kx = "kubectl exec -it";
+      kctx = "kubectl config use-context";
       kn = "kubectl config set-context --current --namespace";
-      do = "--dry-run=client -o yaml";
+      kgp = "kubectl get pods";
+      kgpa = "kubectl get pods -A";
     };
 
     initContent = ''
@@ -39,6 +49,7 @@
               export NIXCONFIG=$PERSONAL/nixos_flake_config
               export HISTTIMEFORMAT="%d/%m/%y %T "
               export ANSIBLE_VAULT_PASSWORD_FILE=~/.password
+              export do=(--dry-run=client -o yaml)
 
               alias gitgraph='git log --graph --abbrev-commit --pretty=oneline'
 
