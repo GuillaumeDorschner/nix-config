@@ -6,6 +6,12 @@ in
   xdg.dataFile = {
     "wallpapers/wallpaper.jpeg".source = ../../asserts/wallpaper.jpeg;
 
+    "dolphin/view_properties/global/.directory".text = ''
+      [Dolphin]
+      ViewMode=1
+      Version=4
+    '';
+
     "kwin/scripts/myscript/metadata.json".text = ''
       {
       "KPlugin": {
@@ -126,6 +132,13 @@ in
     windows = {
       allowWindowsToRememberPositions = true;
     };
-    configFile."kwinrc"."Plugins"."myscriptEnabled" = true;
+    configFile = {
+      "kwinrc"."Plugins"."myscriptEnabled" = true;
+      "dolphinrc" = {
+        "General"."GlobalViewProps" = true;
+        "DetailsMode"."IconSize" = 16;
+        "MainWindow"."MenuBar" = "Disabled";
+      };
+    };
   };
 }
