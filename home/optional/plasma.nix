@@ -96,7 +96,7 @@ in
     enable = true;
     overrideConfig = true;
     workspace = {
-      wallpaper = wallpaper; # rollback if the wallpaper still desaper
+      wallpaper = wallpaper;
       lookAndFeel = "org.kde.breezetwilight.desktop";
     };
     input = {
