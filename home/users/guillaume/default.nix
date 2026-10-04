@@ -4,6 +4,7 @@
     ../../optional/brave.nix
     ../../optional/plasma.nix
     ../../optional/vscode.nix
+    ../../optional/opencode.nix
   ];
 
   home.username = "guillaume";
