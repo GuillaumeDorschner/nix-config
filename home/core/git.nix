@@ -7,7 +7,9 @@
     git = {
       settings = {
         init.defaultBranch = "main";
-        pull.rebase = false;
+        pull.rebase = true;
+        pull.ff = "only";
+        merge.ff = "only";
         push.autoSetupRemote = true;
         url."git@github.com:".insteadOf = "https://github.com/";
       };
