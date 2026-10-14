@@ -13,6 +13,7 @@
     drawio
     gimp
     meld
+    signal-desktop
     # YubiKey
     yubioath-flutter # Yubico Authenticator
     yubikey-manager # CLI
@@ -28,11 +29,19 @@
     nixfmt
     just
     devenv
+    nix-search-cli
+    # Linux
+    git-lfs
+    nixd
+    nixfmt
+    just
+    devenv
     # Linux
     git-lfs
     python313Packages.git-filter-repo
     curl
     mlocate
+    lsof
     wget
     dig
     htop
@@ -72,6 +81,8 @@
     opentofu
     oras
     shelldap
+    openldap
     pssh
+    mkcert
   ];
 }
