@@ -12,6 +12,7 @@
     yt-dlp
     drawio
     gimp
+    meld
     # YubiKey
     yubioath-flutter # Yubico Authenticator
     yubikey-manager # CLI
