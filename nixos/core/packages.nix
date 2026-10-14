@@ -72,5 +72,6 @@
     opentofu
     oras
     shelldap
+    pssh
   ];
 }
