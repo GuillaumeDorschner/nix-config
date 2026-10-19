@@ -70,18 +70,19 @@
     pnpm
     nodejs_24
     # DevOps
-    ansible
     kubectl
+    kubernetes-helm
     k9s
     kubectl-explore
     minikube
     kind
+    ansible
     vagrant
-    terraform
     opentofu
+    terraform
     oras
-    shelldap
     openldap
+    shelldap
     pssh
     mkcert
   ];
