@@ -81,10 +81,10 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1792070218,
-        "narHash": "sha256-oSb0PWZduAfEl2kHxEvYDaZKBHbGeaIdIN1WpZf8Lfs=",
+        "lastModified": 1792394988,
+        "narHash": "sha256-IsFWbMpH12NoFEUSYg9t+g0G7kPzFaNaQQcPSFSM5Ag=",
         "ref": "main",
-        "rev": "fc750497601b548a338c2ec784d2842e895d4b44",
+        "rev": "27261a220647694bb8031e576b6560c954b7a9e2",
         "shallow": true,
         "type": "git",
         "url": "ssh://git@github.com/GuillaumeDorschner/nix-secrets.git"
