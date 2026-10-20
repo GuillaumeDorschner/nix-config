@@ -250,6 +250,26 @@
         "type": "github"
       }
     },
+    "pi-nix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1792099661,
+        "narHash": "sha256-MQH8rrEuvbOWmaudcKPi9/AVK6iKf9wqXX/Nx93EpTo=",
+        "owner": "vabatta",
+        "repo": "pi-nix",
+        "rev": "abbd02a66c1556146e54157baccf95c93ffae7ad",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vabatta",
+        "repo": "pi-nix",
+        "type": "github"
+      }
+    },
     "plasma-manager": {
       "inputs": {
         "home-manager": [
@@ -282,6 +302,7 @@
         "nix-darwin": "nix-darwin",
         "nixos-anywhere": "nixos-anywhere",
         "nixpkgs": "nixpkgs_2",
+        "pi-nix": "pi-nix",
         "plasma-manager": "plasma-manager",
         "sops-nix": "sops-nix"
       }
