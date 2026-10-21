@@ -16,6 +16,7 @@
         "sudo"
         "fzf"
         "kubectl"
+        "helm"
       ];
     };
 
